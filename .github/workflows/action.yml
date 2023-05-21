@@ -1,0 +1,15 @@
+name: abcd
+on: 
+  push: 
+    branches: [ main ]
+
+jobs: 
+  exec:
+    runs-on: ubuntu-latest
+    steps:
+      - name: saumya
+        uses: action/checkout@v2
+
+
+      - name: tripathi
+        run: echo "Hello ppl"
