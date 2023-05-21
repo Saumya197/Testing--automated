@@ -12,4 +12,4 @@ jobs:
 
 
       - name: tripathi
-        run: echo "Hello ppl"
+        run: git diff --name-only --diff-filter=ACMRT 
