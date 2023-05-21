@@ -6,4 +6,4 @@ from time import perf_counter as pcr
 # st=pcr()
 # Popen(["python",f"payload/{file}"])
 # print(pcr()-st)
-os.system("python falana.py")
+system("python falana.py")
